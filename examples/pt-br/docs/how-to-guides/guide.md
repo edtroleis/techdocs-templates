@@ -16,6 +16,7 @@ O serviço usa uma chave nova, e a antiga é revogada.
 ## Passos
 
 1. No painel do provedor, abra **API keys** e crie uma chave nova chamada `payments-<data>`.
+
 2. Guarde a chave no cofre como a **secundária**:
 
    ```bash
@@ -29,6 +30,7 @@ O serviço usa uma chave nova, e a antiga é revogada.
    ```
 
 4. Troque as chaves no cofre: a nova vira `primary_key`, e a antiga sai.
+
 5. Reinicie o serviço de novo e revogue a chave antiga no painel do provedor.
 
 ## Como conferir que deu certo
