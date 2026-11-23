@@ -18,15 +18,15 @@ The service uses a new key, and the old key is revoked.
 1. In the provider dashboard, open **API keys** and create a new key named `payments-<date>`.
 2. Save it in the vault as the **secondary** key:
 
-    ```bash
-    vault kv patch secret/payments/provider secondary_key=<new key>
-    ```
+   ```bash
+   vault kv patch secret/payments/provider secondary_key=<new key>
+   ```
 
 3. Restart the service. It tries the primary key and falls back to the secondary one:
 
-    ```bash
-    kubectl -n payments rollout restart deployment/payments
-    ```
+   ```bash
+   kubectl -n payments rollout restart deployment/payments
+   ```
 
 4. Swap the keys in the vault: the new key becomes `primary_key`, and the old one is removed.
 5. Restart the service again and revoke the old key in the provider dashboard.

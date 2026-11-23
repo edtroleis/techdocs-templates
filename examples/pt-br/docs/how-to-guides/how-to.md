@@ -6,15 +6,15 @@ Como estornar um pagamento, inteiro ou em parte, pela linha de comando.
 
 1. Ache o pagamento pelo pedido:
 
-    ```bash
-    paymentsctl find --order pedido-1
-    ```
+   ```bash
+   paymentsctl find --order pedido-1
+   ```
 
 2. Estorne. Sem `--amount`, estorna tudo:
 
-    ```bash
-    paymentsctl refund pay_123 --amount 500 --reason "produto avariado"
-    ```
+   ```bash
+   paymentsctl refund pay_123 --amount 500 --reason "produto avariado"
+   ```
 
 3. Passe para o atendimento o id do estorno (começa com `ref_`).
 

@@ -23,15 +23,15 @@ logs search 'service:payments level:error' --since 15m | head
 
 1. **Provider down:** turn on the queue mode, so payments wait instead of failing:
 
-    ```bash
-    paymentsctl flags set queue-mode on
-    ```
+   ```bash
+   paymentsctl flags set queue-mode on
+   ```
 
 2. **Bad deploy:** roll back to the previous version:
 
-    ```bash
-    kubectl -n payments rollout undo deployment/payments
-    ```
+   ```bash
+   kubectl -n payments rollout undo deployment/payments
+   ```
 
 3. Confirm the error rate drops below 1% in the dashboard.
 

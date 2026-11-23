@@ -24,15 +24,15 @@ logs search 'service:payments level:error' --since 15m | head
 
 1. **Provedor fora do ar:** ligue o modo fila, para os pagamentos esperarem em vez de falhar:
 
-    ```bash
-    paymentsctl flags set queue-mode on
-    ```
+   ```bash
+   paymentsctl flags set queue-mode on
+   ```
 
 2. **Deploy com problema:** volte para a versão anterior:
 
-    ```bash
-    kubectl -n payments rollout undo deployment/payments
-    ```
+   ```bash
+   kubectl -n payments rollout undo deployment/payments
+   ```
 
 3. Confirme no dashboard que a taxa de erro caiu para menos de 1%.
 

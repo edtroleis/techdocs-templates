@@ -18,15 +18,15 @@ O serviço usa uma chave nova, e a antiga é revogada.
 1. No painel do provedor, abra **API keys** e crie uma chave nova chamada `payments-<data>`.
 2. Guarde a chave no cofre como a **secundária**:
 
-    ```bash
-    vault kv patch secret/payments/provider secondary_key=<chave nova>
-    ```
+   ```bash
+   vault kv patch secret/payments/provider secondary_key=<chave nova>
+   ```
 
 3. Reinicie o serviço. Ele tenta a chave primária e, se falhar, a secundária:
 
-    ```bash
-    kubectl -n payments rollout restart deployment/payments
-    ```
+   ```bash
+   kubectl -n payments rollout restart deployment/payments
+   ```
 
 4. Troque as chaves no cofre: a nova vira `primary_key`, e a antiga sai.
 5. Reinicie o serviço de novo e revogue a chave antiga no painel do provedor.
