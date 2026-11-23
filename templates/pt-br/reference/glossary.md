@@ -13,13 +13,13 @@ Termos usados nesta documentação, em ordem alfabética.
 
 ## A
 
-### Termo
+### Primeiro termo
 
 O que ele quer dizer aqui, em uma ou duas frases.
 Link para a página que explica mais.
 
 ## B
 
-### Termo
+### Outro termo
 
 O que ele quer dizer aqui.

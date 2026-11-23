@@ -13,13 +13,13 @@ Terms used in this documentation, in alphabetical order.
 
 ## A
 
-### Term
+### First term
 
 What it means here, in one or two sentences.
 Link to the page that explains more.
 
 ## B
 
-### Term
+### Another term
 
 What it means here.
