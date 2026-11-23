@@ -1,0 +1,33 @@
+site_name: Serviço de Pagamentos (exemplos)
+site_description: Páginas de exemplo de cada template, preenchidas para um serviço de pagamentos fictício
+nav:
+  - Início: index.md
+  - Tutoriais:
+      - Seu primeiro pagamento: tutorials/tutorial.md
+      - Onboarding: tutorials/onboarding.md
+      - Golden path de um serviço novo: tutorials/golden-path.md
+  - Guias:
+      - Trocar a chave da API do provedor: how-to-guides/guide.md
+      - Estornar um pagamento: how-to-guides/how-to.md
+      - "Runbook: muitos pagamentos com erro": how-to-guides/runbook.md
+      - Solução de problemas: how-to-guides/troubleshooting.md
+  - Referência:
+      - Serviço de Pagamentos: reference/service-home.md
+      - Operação e suporte: reference/operations.md
+      - API de Pagamentos: reference/api-reference.md
+      - Página da wiki do time: reference/wiki-page.md
+      - Notas de versão: reference/release-notes.md
+      - Glossário: reference/glossary.md
+  - Explicação:
+      - Arquitetura: explanation/architecture.md
+      - "ADR 0003: chaves de idempotência": explanation/adr.md
+      - "Postmortem: cobranças em dobro": explanation/postmortem.md
+      - "RFC 0007: novas tentativas com fila": explanation/rfc.md
+plugins:
+  - techdocs-core
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

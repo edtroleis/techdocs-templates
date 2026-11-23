@@ -1,0 +1,33 @@
+site_name: Payments Service (examples)
+site_description: Example pages for every template, filled in for a fictional payments service
+nav:
+  - Home: index.md
+  - Tutorials:
+      - Your first payment: tutorials/tutorial.md
+      - Onboarding: tutorials/onboarding.md
+      - Golden path for a new service: tutorials/golden-path.md
+  - How-to guides:
+      - Rotate the provider API key: how-to-guides/guide.md
+      - Refund a payment: how-to-guides/how-to.md
+      - "Runbook: high payment error rate": how-to-guides/runbook.md
+      - Troubleshooting: how-to-guides/troubleshooting.md
+  - Reference:
+      - Payments Service: reference/service-home.md
+      - Operations and support: reference/operations.md
+      - Payments API: reference/api-reference.md
+      - Team wiki page: reference/wiki-page.md
+      - Release notes: reference/release-notes.md
+      - Glossary: reference/glossary.md
+  - Explanation:
+      - Architecture: explanation/architecture.md
+      - "ADR 0003: idempotency keys": explanation/adr.md
+      - "Postmortem: duplicate charges": explanation/postmortem.md
+      - "RFC 0007: retries with a queue": explanation/rfc.md
+plugins:
+  - techdocs-core
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

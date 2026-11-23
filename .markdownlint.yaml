@@ -1,0 +1,7 @@
+# The same rules the TechDocs Editor creates in a new documentation
+default: true
+MD013: false   # line length
+MD033: false   # inline HTML
+MD046: false   # code block style (admonitions use indentation)
+MD024:         # repeated headings only under different parents (release notes)
+  siblings_only: true

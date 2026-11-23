@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install mkdocs-techdocs-core pyyaml
+      - name: Templates
+        run: python scripts/check-templates.py
+      - name: Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: |
+            examples/**/*.md
+            README*.md
+      - name: Example sites
+        run: |
+          mkdocs build --strict -f examples/en/mkdocs.yml -d "$RUNNER_TEMP/en"
+          mkdocs build --strict -f examples/pt-br/mkdocs.yml -d "$RUNNER_TEMP/pt-br"

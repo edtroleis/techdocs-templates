@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-templates-examples-en
+  title: TechDocs templates – examples (English)
+  description: Example pages for every TechDocs template, filled in for a fictional payments service
+  annotations:
+    backstage.io/techdocs-ref: dir:./examples/en
+    github.com/project-slug: edtroleis/techdocs-templates
+spec:
+  type: documentation
+  lifecycle: production
+  owner: edtroleis
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-templates-examples-pt-br
+  title: Templates do TechDocs – exemplos (português)
+  description: Páginas de exemplo de cada template do TechDocs, preenchidas para um serviço de pagamentos fictício
+  annotations:
+    backstage.io/techdocs-ref: dir:./examples/pt-br
+    github.com/project-slug: edtroleis/techdocs-templates
+spec:
+  type: documentation
+  lifecycle: production
+  owner: edtroleis
