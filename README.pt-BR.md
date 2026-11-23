@@ -12,8 +12,8 @@ preenchido de cada um, organizados pelo [Diátaxis](https://diataxis.fr/):
 | [Referência](templates/pt-br/reference)   | Consultar                  | Página inicial do serviço, Operação e suporte, Referência de API, Página de wiki, Notas de versão, Glossário |
 | [Explicação](templates/pt-br/explanation) | Entender o porquê          | Arquitetura, ADR, Postmortem, RFC / design doc                                                               |
 
-E quatro [templates de site](templates/pt-br/sites): docs de serviço, wiki de time, golden path e um site em
-branco.
+E nove [templates de site](templates/pt-br/sites): docs de serviço, wiki de time, golden path, API, biblioteca / SDK,
+plataforma interna, runbooks de operação, projeto / iniciativa e um site em branco.
 
 Os [exemplos](examples/pt-br/docs) descrevem um serviço de pagamentos fictício, em português e em
 [inglês](examples/en/docs). Cada um é um site do TechDocs: registre o `catalog-info.yaml` no Backstage para lê-los

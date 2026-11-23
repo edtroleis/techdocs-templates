@@ -1,0 +1,19 @@
+version: 1
+name: Plataforma interna
+description: Uma plataforma sobre a qual outros times constroem, com o que oferece, acesso, golden path, suporte e glossário
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: como-pedir-acesso.md
+    title: Como pedir acesso
+    source: access.md
+  - path: golden-path.md
+    title: Golden path
+    page: golden-path
+  - path: suporte-e-slas.md
+    title: Suporte e SLAs
+    source: support.md
+  - path: glossario.md
+    title: Glossário
+    page: glossary

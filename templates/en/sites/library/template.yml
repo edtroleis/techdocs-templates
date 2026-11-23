@@ -1,0 +1,22 @@
+version: 1
+name: Library / SDK
+description: A library or SDK for other teams, with installation, getting started, usage, reference and contributing
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: installation.md
+    title: Installation
+    source: installation.md
+  - path: getting-started.md
+    title: Getting started
+    page: tutorial
+  - path: usage-guide.md
+    title: Usage guide
+    page: guide
+  - path: reference.md
+    title: API reference
+    page: api-reference
+  - path: contributing.md
+    title: Contributing
+    source: contributing.md

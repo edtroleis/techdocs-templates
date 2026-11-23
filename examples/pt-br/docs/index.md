@@ -43,4 +43,14 @@ Para quando o leitor quer entender o porquê.
 - [Postmortem](explanation/postmortem.md)
 - [RFC](explanation/rfc.md)
 
+## Sites
+
+O que os templates de site criam, preenchido. As outras páginas de cada site vêm dos templates de página acima.
+
+- [API](sites/api/index.md): [autenticação](sites/api/authentication.md), [erros](sites/api/errors.md)
+- [Biblioteca / SDK](sites/library/index.md): [instalação](sites/library/installation.md), [como contribuir](sites/library/contributing.md)
+- [Plataforma interna](sites/platform/index.md): [como pedir acesso](sites/platform/access.md), [suporte e SLAs](sites/platform/support.md)
+- [Runbooks de operação](sites/runbooks/index.md): [escalonamento](sites/runbooks/escalation.md)
+- [Projeto / iniciativa](sites/project/index.md): [cronograma](sites/project/roadmap.md)
+
 Tudo aqui é inventado: nomes, números, links e pessoas.

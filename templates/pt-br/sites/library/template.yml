@@ -1,0 +1,22 @@
+version: 1
+name: Biblioteca / SDK
+description: Uma biblioteca ou SDK para outros times, com instalação, primeiros passos, uso, referência e contribuição
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: instalacao.md
+    title: Instalação
+    source: installation.md
+  - path: primeiros-passos.md
+    title: Primeiros passos
+    page: tutorial
+  - path: guia-de-uso.md
+    title: Guia de uso
+    page: guide
+  - path: referencia-da-api.md
+    title: Referência da API
+    page: api-reference
+  - path: como-contribuir.md
+    title: Como contribuir
+    source: contributing.md

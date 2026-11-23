@@ -1,0 +1,18 @@
+version: 1
+name: Operations runbooks
+description: Runbooks for the on-call, with an alert index, escalation and postmortems
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: escalation.md
+    title: Escalation
+    source: escalation.md
+  - path: runbooks/example-runbook.md
+    title: Example runbook
+    section: Runbooks
+    page: runbook
+  - path: postmortems/example-postmortem.md
+    title: Example postmortem
+    section: Postmortems
+    page: postmortem

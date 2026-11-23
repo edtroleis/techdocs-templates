@@ -1,0 +1,20 @@
+version: 1
+name: Projeto / iniciativa
+description: Um projeto ou iniciativa entre times, com objetivo, RFC, cronograma, decisões e notas de release
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: rfc.md
+    title: RFC
+    page: rfc
+  - path: cronograma.md
+    title: Cronograma
+    source: roadmap.md
+  - path: adr/0001-primeira-decisao.md
+    title: Primeira decisão
+    section: Decisões
+    page: adr
+  - path: notas-de-release.md
+    title: Notas de release
+    page: release-notes

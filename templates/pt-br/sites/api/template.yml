@@ -1,0 +1,19 @@
+version: 1
+name: API
+description: Uma API para outros times integrarem, com autenticação, referência, erros e histórico de mudanças
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: autenticacao.md
+    title: Autenticação
+    source: authentication.md
+  - path: referencia-da-api.md
+    title: Referência da API
+    page: api-reference
+  - path: erros.md
+    title: Erros
+    source: errors.md
+  - path: historico-de-mudancas.md
+    title: Histórico de mudanças
+    page: release-notes

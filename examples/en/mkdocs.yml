@@ -23,6 +23,20 @@ nav:
       - "ADR 0003: idempotency keys": explanation/adr.md
       - "Postmortem: duplicate charges": explanation/postmortem.md
       - "RFC 0007: retries with a queue": explanation/rfc.md
+  - Sites:
+      - "API: Payments API": sites/api/index.md
+      - "API: Authentication": sites/api/authentication.md
+      - "API: Errors": sites/api/errors.md
+      - "Library: payments-client": sites/library/index.md
+      - "Library: Installation": sites/library/installation.md
+      - "Library: Contributing": sites/library/contributing.md
+      - "Platform: Commerce Platform": sites/platform/index.md
+      - "Platform: Getting access": sites/platform/access.md
+      - "Platform: Support and SLAs": sites/platform/support.md
+      - "Runbooks: Payments runbooks": sites/runbooks/index.md
+      - "Runbooks: Escalation": sites/runbooks/escalation.md
+      - "Project: New card provider": sites/project/index.md
+      - "Project: Roadmap": sites/project/roadmap.md
 plugins:
   - techdocs-core
 markdown_extensions:

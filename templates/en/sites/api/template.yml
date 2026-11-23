@@ -1,0 +1,19 @@
+version: 1
+name: API
+description: An API for other teams to integrate with, with authentication, reference, errors and changelog
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: authentication.md
+    title: Authentication
+    source: authentication.md
+  - path: reference.md
+    title: API reference
+    page: api-reference
+  - path: errors.md
+    title: Errors
+    source: errors.md
+  - path: changelog.md
+    title: Changelog
+    page: release-notes

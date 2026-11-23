@@ -1,0 +1,20 @@
+version: 1
+name: Project / initiative
+description: A project or initiative across teams, with goal, RFC, roadmap, decisions and release notes
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: rfc.md
+    title: RFC
+    page: rfc
+  - path: roadmap.md
+    title: Roadmap
+    source: roadmap.md
+  - path: adr/0001-first-decision.md
+    title: First decision
+    section: Decisions
+    page: adr
+  - path: release-notes.md
+    title: Release notes
+    page: release-notes

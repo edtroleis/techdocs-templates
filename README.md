@@ -12,7 +12,8 @@ of each one filled in, organized by [Diátaxis](https://diataxis.fr/):
 | [Reference](templates/en/reference)         | Look something up         | Service home, Operations and support, API reference, Wiki page, Release notes, Glossary |
 | [Explanation](templates/en/explanation)     | Understand why            | Architecture, ADR, Postmortem, RFC / design doc                                         |
 
-And four [site templates](templates/en/sites): service docs, team wiki, golden path and a blank site.
+And nine [site templates](templates/en/sites): service docs, team wiki, golden path, API, library / SDK, internal
+platform, operations runbooks, project / initiative and a blank site.
 
 The [examples](examples/en/docs) describe a fictional payments service, in English and in
 [Portuguese](examples/pt-br/docs). Each one is a TechDocs site: register `catalog-info.yaml` in Backstage to read

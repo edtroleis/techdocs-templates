@@ -1,0 +1,18 @@
+version: 1
+name: Runbooks de operação
+description: Runbooks para o plantão, com índice de alertas, escalonamento e pós-mortems
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: escalonamento.md
+    title: Escalonamento
+    source: escalation.md
+  - path: runbooks/runbook-de-exemplo.md
+    title: Runbook de exemplo
+    section: Runbooks
+    page: runbook
+  - path: pos-mortems/pos-mortem-de-exemplo.md
+    title: Pós-mortem de exemplo
+    section: Pós-mortems
+    page: postmortem

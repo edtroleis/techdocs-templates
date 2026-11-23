@@ -23,6 +23,20 @@ nav:
       - "ADR 0003: chaves de idempotência": explanation/adr.md
       - "Postmortem: cobranças em dobro": explanation/postmortem.md
       - "RFC 0007: novas tentativas com fila": explanation/rfc.md
+  - Sites:
+      - "API: API de Pagamentos": sites/api/index.md
+      - "API: Autenticação": sites/api/authentication.md
+      - "API: Erros": sites/api/errors.md
+      - "Biblioteca: payments-client": sites/library/index.md
+      - "Biblioteca: Instalação": sites/library/installation.md
+      - "Biblioteca: Como contribuir": sites/library/contributing.md
+      - "Plataforma: Plataforma de Comércio": sites/platform/index.md
+      - "Plataforma: Como pedir acesso": sites/platform/access.md
+      - "Plataforma: Suporte e SLAs": sites/platform/support.md
+      - "Runbooks: Runbooks de Pagamentos": sites/runbooks/index.md
+      - "Runbooks: Escalonamento": sites/runbooks/escalation.md
+      - "Projeto: Novo provedor de cartão": sites/project/index.md
+      - "Projeto: Cronograma": sites/project/roadmap.md
 plugins:
   - techdocs-core
 markdown_extensions:

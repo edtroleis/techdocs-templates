@@ -1,0 +1,19 @@
+version: 1
+name: Internal platform
+description: A platform other teams build on, with what it offers, access, golden path, support and glossary
+files:
+  - path: index.md
+    title: "{{site_name}}"
+    source: home.md
+  - path: getting-access.md
+    title: Getting access
+    source: access.md
+  - path: golden-path.md
+    title: Golden path
+    page: golden-path
+  - path: support.md
+    title: Support and SLAs
+    source: support.md
+  - path: glossary.md
+    title: Glossary
+    page: glossary
