@@ -13,8 +13,13 @@ Terms used in this documentation, in alphabetical order.
 
 ## A
 
-- **Term**: What it means here, in one or two sentences. Link to the page that explains more.
+### Term
+
+What it means here, in one or two sentences.
+Link to the page that explains more.
 
 ## B
 
-- **Term**: What it means here.
+### Term
+
+What it means here.

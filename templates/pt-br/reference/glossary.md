@@ -13,8 +13,13 @@ Termos usados nesta documentação, em ordem alfabética.
 
 ## A
 
-- **Termo**: O que ele quer dizer aqui, em uma ou duas frases. Link para a página que explica mais.
+### Termo
+
+O que ele quer dizer aqui, em uma ou duas frases.
+Link para a página que explica mais.
 
 ## B
 
-- **Termo**: O que ele quer dizer aqui.
+### Termo
+
+O que ele quer dizer aqui.
