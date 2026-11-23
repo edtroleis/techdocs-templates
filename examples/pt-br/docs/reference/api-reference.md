@@ -18,7 +18,7 @@ Um token de serviço no cabeçalho `Authorization: Bearer <token>`. Peça um em 
 `POST /v1/payments`
 
 | Campo      | Tipo    | Obrigatório | Descrição                         |
-|------------|---------|-------------|-----------------------------------|
+| ---------- | ------- | ----------- | --------------------------------- |
 | `orderId`  | string  | sim         | O pedido que está sendo pago      |
 | `amount`   | integer | sim         | Valor em centavos                 |
 | `currency` | string  | sim         | Código ISO 4217, como `BRL`       |

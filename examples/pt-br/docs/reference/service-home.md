@@ -18,7 +18,7 @@ serviços quando um pagamento dá certo ou falha.
 ## Dependências
 
 | Depende de            | Para                                       |
-|-----------------------|--------------------------------------------|
+| --------------------- | ------------------------------------------ |
 | Provedor de cartões   | Cobrar e estornar cartões                  |
 | PostgreSQL            | Pagamentos e estornos                      |
 | Barramento de eventos | Publicar `payment.paid` e `payment.failed` |

@@ -26,7 +26,7 @@ curl -H "Authorization: Bearer $TOKEN" https://api.example.com/v1/items
 `GET /v1/items`
 
 | Parâmetro | Tipo   | Descrição                    |
-|-----------|--------|------------------------------|
+| --------- | ------ | ---------------------------- |
 | limit     | number | Quantos itens, até 100       |
 | cursor    | string | Onde começa a próxima página |
 

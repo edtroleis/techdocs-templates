@@ -19,7 +19,7 @@ Como {{owner}} opera este serviço no dia a dia.
 ## Níveis de serviço
 
 | Objetivo        | Meta   | Medido por               |
-|-----------------|--------|--------------------------|
+| --------------- | ------ | ------------------------ |
 | Disponibilidade | 99,9%  | Verificações com sucesso |
 | Latência        | 300 ms | Percentil 95             |
 

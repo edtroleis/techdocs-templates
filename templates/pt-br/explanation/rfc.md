@@ -34,7 +34,7 @@ Como funcionaria. Um diagrama, os fluxos principais e o que muda para cada time.
 ## Alternativas
 
 | Opção          | Prós | Contras |
-|----------------|------|---------|
+| -------------- | ---- | ------- |
 | A proposta     |      |         |
 | Não fazer nada |      |         |
 

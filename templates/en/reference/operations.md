@@ -19,7 +19,7 @@ How {{owner}} runs this service day to day.
 ## Service levels
 
 | Objective    | Target | Measured by       |
-|--------------|--------|-------------------|
+| ------------ | ------ | ----------------- |
 | Availability | 99.9%  | Successful checks |
 | Latency      | 300 ms | 95th percentile   |
 

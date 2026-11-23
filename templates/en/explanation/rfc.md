@@ -34,7 +34,7 @@ How it would work. A diagram, the main flows and what changes for each team.
 ## Alternatives
 
 | Option       | Pros | Cons |
-|--------------|------|------|
+| ------------ | ---- | ---- |
 | The proposal |      |      |
 | Do nothing   |      |      |
 

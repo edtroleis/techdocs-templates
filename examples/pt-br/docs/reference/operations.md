@@ -10,14 +10,14 @@ Como o Serviço de Pagamentos é operado no dia a dia.
 ## SLOs
 
 | SLO                                            | Meta   | Janela  |
-|------------------------------------------------|--------|---------|
+| ---------------------------------------------- | ------ | ------- |
 | Pagamentos criados sem erro                    | 99,9%  | 30 dias |
 | Tempo de resposta do `POST /v1/payments` (p99) | 800 ms | 30 dias |
 
 ## Alertas
 
 | Alerta                   | Runbook                                                     |
-|--------------------------|-------------------------------------------------------------|
+| ------------------------ | ----------------------------------------------------------- |
 | `PaymentsErrorRateHigh`  | [Muitos pagamentos com erro](../how-to-guides/runbook.md)   |
 | `PaymentsPendingTooLong` | [Solução de problemas](../how-to-guides/troubleshooting.md) |
 

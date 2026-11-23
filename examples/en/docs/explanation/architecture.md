@@ -32,7 +32,7 @@ One table for payments and one for refunds. Card numbers never reach our databas
 ## Integrations
 
 | System        | How                | Why                 |
-|---------------|--------------------|---------------------|
+| ------------- | ------------------ | ------------------- |
 | Card provider | HTTPS and webhooks | Charge and refund   |
 | Event bus     | Publish            | Tell other services |
 

@@ -10,14 +10,14 @@ How the Payments Service is run day to day.
 ## SLOs
 
 | SLO                                      | Target | Window  |
-|------------------------------------------|--------|---------|
+| ---------------------------------------- | ------ | ------- |
 | Payments created without error           | 99.9%  | 30 days |
 | Time to answer `POST /v1/payments` (p99) | 800 ms | 30 days |
 
 ## Alerts
 
 | Alert                    | Runbook                                                |
-|--------------------------|--------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------ |
 | `PaymentsErrorRateHigh`  | [High payment error rate](../how-to-guides/runbook.md) |
 | `PaymentsPendingTooLong` | [Troubleshooting](../how-to-guides/troubleshooting.md) |
 

@@ -9,7 +9,7 @@ Planejamento às segundas, uma daily curta e uma review a cada duas sextas.
 ## Conteúdo
 
 | Ritual       | Quando                               | Duração | Para quê                      |
-|--------------|--------------------------------------|---------|-------------------------------|
+| ------------ | ------------------------------------ | ------- | ----------------------------- |
 | Planejamento | Segunda 10:30                        | 45 min  | Escolher o trabalho da semana |
 | Daily        | Todo dia 9:45                        | 15 min  | Destravar uns aos outros      |
 | Review       | Sexta, semana sim, semana não, 15:00 | 30 min  | Mostrar o que foi entregue    |

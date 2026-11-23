@@ -6,7 +6,7 @@ Boas-vindas ao time de Pagamentos. Esta página acompanha a sua primeira semana.
 ## Acessos a pedir
 
 | O quê                           | Onde                                 | Quem aprova   |
-|---------------------------------|--------------------------------------|---------------|
+| ------------------------------- | ------------------------------------ | ------------- |
 | Time `payments` no GitHub       | Portal de acessos, "Times do GitHub" | Líder do time |
 | Painel do provedor (só leitura) | Chamado para Finance Ops             | Finance Ops   |
 | Logs de produção                | Portal de acessos, "Logs – payments" | Líder do time |

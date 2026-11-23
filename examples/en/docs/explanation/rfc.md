@@ -30,7 +30,7 @@ flowchart LR
 ## Alternatives
 
 | Option          | Pros                        | Cons                           |
-|-----------------|-----------------------------|--------------------------------|
+| --------------- | --------------------------- | ------------------------------ |
 | Queue mode      | Customers do not start over | Orders wait; more code         |
 | Second provider | No waiting                  | Contract, cost, months of work |
 | Do nothing      | No work                     | Lost sales in every outage     |

@@ -6,7 +6,7 @@ there are no silly questions here.
 ## Access to request
 
 | What                           | Where                            | Who approves |
-|--------------------------------|----------------------------------|--------------|
+| ------------------------------ | -------------------------------- | ------------ |
 | GitHub team `payments`         | Access portal, "GitHub teams"    | Team lead    |
 | Provider dashboard (read only) | Ticket to Finance Ops            | Finance Ops  |
 | Production logs                | Access portal, "Logs – payments" | Team lead    |

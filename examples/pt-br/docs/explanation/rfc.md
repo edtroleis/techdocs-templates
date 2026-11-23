@@ -30,7 +30,7 @@ flowchart LR
 ## Alternativas
 
 | Opção            | Prós                   | Contras                            |
-|------------------|------------------------|------------------------------------|
+| ---------------- | ---------------------- | ---------------------------------- |
 | Modo fila        | Clientes não recomeçam | Pedidos esperam; mais código       |
 | Segundo provedor | Sem espera             | Contrato, custo, meses de trabalho |
 | Não fazer nada   | Nenhum trabalho        | Vendas perdidas a cada queda       |

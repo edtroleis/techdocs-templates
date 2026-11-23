@@ -18,7 +18,7 @@ payment succeeds or fails.
 ## Dependencies
 
 | Depends on    | For                                            |
-|---------------|------------------------------------------------|
+| ------------- | ---------------------------------------------- |
 | Card provider | Charging and refunding cards                   |
 | PostgreSQL    | Payments and refunds                           |
 | Event bus     | Publishing `payment.paid` and `payment.failed` |

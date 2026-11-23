@@ -14,7 +14,7 @@ For 40 minutes, 312 customers were charged twice. All of them were refunded the 
 ## Timeline
 
 | Time  | What happened                                        |
-|-------|------------------------------------------------------|
+| ----- | ---------------------------------------------------- |
 | 14:05 | The provider starts answering in 20 s instead of 1 s |
 | 14:06 | Checkout times out at 10 s and retries the payment   |
 | 14:20 | Support reports customers charged twice              |
@@ -34,6 +34,6 @@ payment.
 ## Actions
 
 | Action                                                | Owner    | Due        |
-|-------------------------------------------------------|----------|------------|
+| ----------------------------------------------------- | -------- | ---------- |
 | Idempotency keys ([ADR 0003](adr.md))                 | Payments | 2026-04-15 |
 | Alert for two payments of the same order in 5 minutes | Payments | 2026-03-20 |

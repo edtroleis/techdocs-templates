@@ -18,7 +18,7 @@ A service token in the `Authorization: Bearer <token>` header. Ask for one in `#
 `POST /v1/payments`
 
 | Field      | Type    | Required | Description                  |
-|------------|---------|----------|------------------------------|
+| ---------- | ------- | -------- | ---------------------------- |
 | `orderId`  | string  | yes      | The order being paid         |
 | `amount`   | integer | yes      | Amount in cents              |
 | `currency` | string  | yes      | ISO 4217 code, such as `USD` |

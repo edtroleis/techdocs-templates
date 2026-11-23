@@ -33,7 +33,7 @@ um token.
 ## Integrações
 
 | Sistema               | Como             | Por quê                   |
-|-----------------------|------------------|---------------------------|
+| --------------------- | ---------------- | ------------------------- |
 | Provedor de cartões   | HTTPS e webhooks | Cobrar e estornar         |
 | Barramento de eventos | Publicação       | Avisar os outros serviços |
 
